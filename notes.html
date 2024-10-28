@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <div class="ico">
+                <i class="fa-solid fa-note-sticky" style="color: #e7d87f;"></i> 
+            </div> My Notes
+        </h1>
+        <button class="btn" id="create-note-btn">
+            <div class="ic">
+                <i class="fa-regular fa-pen-to-square" style="color: #e7d87f;"></i>
+            </div> Create Note
+        </button>
+        <button class="btn" id="add-image-btn" style="display: none;">
+            <div class="ic">
+                <i class="fa-solid fa-image" style="color: #e7d87f;"></i>
+            </div> Add Image
+        </button>
+        <input type="file" id="image-upload" accept="image/*" style="display: none;">
+        
+        <div class="notes-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
